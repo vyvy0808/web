@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<!-- Phần đầu của HTML: chứa thông tin mô tả trang web -->
+<head>
+    <!-- Xử lí font chữ -->
+    <meta charset="UTF-8">
+    <!-- Thiết kế kích thước trang web tương thích với thiết bị -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tiêu đề trang web: hiển thị trên tab trình duyệt -->
+    <title>Website</title>
+    <!-- Liên kết file CSS bên ngoài: stylesheet -> chỉ rõ đây là file CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header: phần nằm ở trên cùng -->
+      <header class="header">
+        <!-- Khối logo gồm: logo web và tên web nằm kế bên -->
+        <div class="logo">
+            <!-- <img src="logo.png" alt="Logo" > -->
+            <div class="web_name">
+                <span class="tile_web1">ĐẢNG BỘ TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN</span>
+                <span class="tile_web2">CHI BỘ SINH VIÊN</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Nội dung chính: phần bên dưới -->
+    <main class="content">
+      <!-- LEFT -->
+      <div class="left">
+        <!-- Đăng nhập -->
+        <div class="login">
+          <h4>ĐĂNG NHẬP</h4>
+          <div class="user_name">
+            <h5>Tên truy cập</h5>
+            <input type="text">
+          </div>
+          <div class="pass_word">
+            <h5>Mật khẩu</h5>
+            <input type="password">
+          </div>
+          <button>Đăng nhập</button>
+        </div>
+
+        <!-- Tiểu sử -->
+        <div class="history">
+          <h4>TIỂU SỬ CHI BỘ</h4>
+          <div class="history_content">
+            Chi bộ được thành lập từ năm XXXX, với nhiệm vụ lãnh đạo toàn diện các
+            hoạt động của đơn vị, phát triển đảng viên mới và triển khai các nghị
+            quyết của Đảng Chi bộ được thành lập từ năm XXXX, với nhiệm vụ lãnh đạo toàn diện các
+            hoạt động của đơn vị, phát triển đảng viên mới và triển khai các nghị
+            quyết của Đảng Chi bộ được thành lập từ năm XXXX, với nhiệm vụ lãnh đạo toàn diện các
+            hoạt động của đơn vị, phát triển đảng viên mới và triển khai các nghị
+            quyết của Đảng  ...
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="right">
+        <!-- Slideshow -->
+        <div class="slideshow">
+          <img id="slide-img" src="1.jpg" alt="Ảnh chi bộ">
+        </div>
+        <!-- Tin nổi bật -->
+        <div class="news">
+          <h4>TIN NỔI BẬT</h4>
+          <div class="highlight-news">
+            <!-- Slideshow bên trái -->
+            <div class="highlight-left" id="slideshow"></div>
+
+            <!-- Danh sách bên phải -->
+            <div class="highlight-right" id="news-list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-container">
+        <span class="title_footer">CHI BỘ SINH VIÊN</span>
+        <p>Địa chỉ: </p>
+        <p>Email: </p>
+    </div>
+    </footer>
+</body>
+</html>
